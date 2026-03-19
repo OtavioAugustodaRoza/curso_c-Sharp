@@ -1,20 +1,21 @@
-Definição de Classe:
+Conceitos de Classes e Objetos 
 
-É um tipo de dado composto por membros.
-Membros: Propriedades (variáveis da classe) e Métodos (funções/funcionalidades).
-A classe é a base do objeto, definindo regras e comportamentos.
-Modificadores de Classe (Visibilidade):
+Classe: É um tipo de dado composto por membros. Ela serve como base (definição/molde) para os objetos, definindo regras e comportamentos.
+Membros da Classe:
+Propriedades: São as variáveis da classe (dados/atributos).
+Métodos: São as funções da classe (funcionalidades/comportamentos).
+Objeto: É uma instância de uma classe. É criado na memória usando o operador new e é independente de outros objetos da mesma classe.
+
 
 public: Sem restrição de acesso.
-abstract: Classe base, não pode ser instanciada diretamente.
-sealed: Não pode ser herdada.
-static: Não precisa (e não pode) ser instanciada; seus membros também devem ser estáticos.
-Modificadores de Membros (Propriedades e Métodos):
+abstract: Classe base que não pode ser instanciada diretamente.
+sealed: Classe que não pode ser herdada.
+static: Classe que não pode ser instanciada e possui apenas membros estáticos.
 
+especificador de acesso:
 public: Acessível de qualquer lugar.
 private: Acessível apenas dentro da própria classe.
-protected: Acessível pela própria classe e classes derivadas.
-abstract: Apenas a assinatura do método (implementação deve ser feita na classe filha).
+protected: Acessível na classe e em classes derivadas.
+abstract: Define apenas o cabeçalho do método, a implementação é obrigatória nas classes derivadas.
 sealed: Método que não pode ser redefinido (override).
-virtual: Método que pode ser redefinido em classes filhas.
 static: Membro acessível sem instanciar a classe.
