@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Em%20Progresso-yellow)
 ![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
 ![Plataforma](https://img.shields.io/badge/Plataforma-.NET-lightgrey)
-![Última Atualização](https://img.shields.io/badge/Atualizado-Março%202026-brightgreen)
+![Última Atualização](https://img.shields.io/badge/Atualizado-Abril%202026-brightgreen)
 
 Repositório para acompanhar minha evolução no curso de **C#** do canal **CFB Cursos**.  
 Aqui você encontra exemplos, exercícios e projetos desenvolvidos durante as aulas.
